@@ -1,0 +1,32 @@
+footer {
+    background-color: #0a061d; /* Very dark purple */
+    color: white; /* Set text color to white for contrast */
+    padding: 30px 0; /* Add some padding */
+  }
+  /* ... other CSS ... */
+
+.footer-content {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Vertically align items */
+    justify-content:left/* ... other CSS ... */
+
+    .footer-content {
+      display: flex; /* Use flexbox for alignment */
+      align-items: center; /* Vertically align items */
+    }
+    
+    .footer-content img {
+      margin-right: auto; /* Push the logo to the left */
+    }
+    
+    /* ... other CSS ... */;
+  }
+  
+  .footer-content img {
+    margin-right: auto; /* Push the logo to the left */
+  }
+  
+  /* ... other CSS ... */
+  
+  /* ... other CSS ... */
+  /* ... other CSS ... */

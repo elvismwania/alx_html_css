@@ -1,0 +1,63 @@
+  /* Our Results Section */
+  .our-results {
+    background-image: url("NEW\ PROJ/IMAGES/images/HEADPHONES_HERO_2.jpg");
+    color: var(--color-white);
+    padding-top: 92px;
+    padding-bottom: 102px;
+}
+
+.our-results h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 75px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.our-results > p {
+    max-width: 637px;
+    margin: 0 auto 66px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.pentagones {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #FFFFFF;
+    
+}
+
+.pentagone {
+    background-color: #C82540;
+    width: calc(15% - 10px);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pentagone h3 {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    padding-top: 52px;
+    margin-bottom: 45px;
+}
+
+.pentagone p {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    padding-bottom: 52px;
+}

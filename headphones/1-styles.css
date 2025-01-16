@@ -1,0 +1,79 @@
+/* What We Do Section Styles */
+.what-we-do {
+    padding: 50px 0; 
+    text-align: center;
+  }
+  
+  .what-we-do h2 {
+    font-size: 2.5em; 
+    margin-bottom: 30px; 
+  }
+  
+  .what-we-do p { /* Target all paragraphs within .what-we-do */
+    font-size: 1.2em; 
+    line-height: 1.6; 
+    margin-bottom: 20px; 
+    font-family: 'Source Sans Pro', sans-serif; 
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .services {
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr); /* Four columns */
+    gap: 30px; 
+  }
+  
+  .service {
+    margin-bottom: 0; 
+  }
+  
+  .service i {
+    font-size: 3em; 
+    margin-bottom: 20px;
+    color: #FF6565; 
+  }
+  
+  .service h3 {
+    font-size: 1.3em; 
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .service p {
+    line-height: 1.6; 
+  }
+  
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .services {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      margin-top: 10px; 
+    }
+  
+    nav li {
+      margin: 5px 0; 
+    }
+  
+    .hero {
+      padding: 30px 0; 
+    }
+  
+    .hero h1 {
+      font-size: 2em; 
+    }
+  }

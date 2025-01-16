@@ -1,0 +1,100 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header & Hero Combined Styles with Background Image */
+  .header-hero { 
+    background-image: url("NEW PROJ/IMAGES/images/headphones_hero_1.jpg"); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-color: rgba(38, 50, 56, 0.5); 
+    color: white;
+  }
+  
+  header {
+    padding: 20px 0; 
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  
+  .logo-and-title { /* New class to group logo and title */
+    display: flex;
+    align-items: center; 
+  }
+  
+  @font-face {
+    font-family: 'Spin Cycle OT';
+    src: url('path/to/SpinCycleOT.ttf') format('truetype'); /* Replace with actual path */
+    /* Add other font formats (woff, woff2, etc.) if available */
+  }
+  
+  .logo-and-title h1 { /* Style the h1 within the new div */
+    color: white;
+    margin-left: 10px; /* Add some space between logo and title */
+    font-family: 'Spin Cycle OT', cursive; /* Apply the Spin Cycle OT font */
+  }
+  
+  .logo img {
+    height: 50px; 
+    content: url("NEW PROJ/IMAGES/images/favicon.ico"); 
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 30px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  nav a:hover,
+  nav a:active {
+    color: #FF6565;
+  }
+  
+  .hero {
+    padding: 50px 0; 
+    text-align: center;
+  }
+  
+  .hero-content {
+    max-width: 600px; 
+    margin: 0 auto; 
+  }
+  
+  .hero p {
+    font-size: 1.2em; 
+    line-height: 1.6; 
+    margin-bottom: 100px;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  .cta-button {
+    background-color: #FF6565; 
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.1em;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover,
+  .cta-button:active {
+    opacity: 0.9; 
+  }
