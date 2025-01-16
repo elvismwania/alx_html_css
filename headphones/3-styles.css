@@ -1,47 +1,49 @@
 .contact-us {
-    padding: 50px 0;
-    text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
-  }
-  
-  .contact-us h2 {
-    font-size: 2.5em; 
-    margin-bottom: 30px; 
-    color: #263238; /* Dark color for the heading */
-    font-family: 'Source Sans Pro', sans-serif;
-  }
-  
-  .form-group {
-    margin-bottom: 20px; 
-    text-align: center; 
-  }
-  
-  .form-group label {
-    display: list-item; 
-    margin-bottom: 5px;
-    font-weight: bold; 
-  }
-  
-  .form-group input,
-  .form-group textarea {
-    width: 50%; 
-    padding: 10px; 
-    border: 1px solid #ccc; 
-    border-radius: 150; /* Remove border-radius for a sharp look */
-    box-shadow: none; /* Remove any box-shadow */
-  }
-  .cta-button {
-    background-color: #FF6565; 
-    color: white;
-    padding: 15px 30px;
-    font-size: 1.1em;
-    border: none;
-    cursor: pointer;
-    border-radius: 25px; /* Add this to make the button round */
-    display: block; /* Add this to make the button a block-level element */
-    margin: 0 auto; /* Add this to center the button horizontally */
-    width: fit-content; /* Add this to make the button fit its content */
-  }
-  .white-icon {
-    color: white; 
-  }
+  padding: 50px 0;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.contact-us h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #263238;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group label {
+  display: list-item;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 150;
+  box-shadow: none;
+}
+
+.cta-button {
+  background-color: #FF6565;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.1em;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.white-icon {
+  color: white;
+}
